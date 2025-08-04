@@ -59,6 +59,7 @@ int main() {
 
 
     printf("=================================================\n");
+    
     printf("CIDADE1: %s \n", cidade1);
     printf("PAIS DA CIDADE1: %s \n", pais1);
     printf("UF1: %s \n", codigo1);
@@ -66,6 +67,37 @@ int main() {
     printf("AREA1: %.1f km2 \n", area1);
     printf("PIB1: %f milhoes \n", pib1);
     printf("TURISMO: %d pontos \n", ponts_turist1);
+
+    printf("=================================================\n");
+
+
+
+    printf("=================================================\n");
+
+    printf("Nome da Cidade2: ");
+    scanf(" %s", cidade2);
+
+    printf("Nome do Pais da Cidade2: ");
+    scanf(" %s", &pais2);
+
+    printf("Estado - UF: ");
+    scanf(" %s", codigo2);
+
+    printf("Populacao da Cidade2: ");
+    scanf(" %d", &populacao2);
+
+    printf("Area da Cidade2: ");
+    scanf(" %f", &area2);
+
+    printf("PIB da Cidade2: ");
+    scanf(" %f", &pib2);
+
+    printf("Pontuacao Turistica: ");
+    scanf(" %d", &ponts_turist2);
+
+    // FIZ EM UMA UNICA LINHA PARA FICAR DIFERENTE
+    printf("=================================================\n");
+    printf("CIDADE1: %s\nPAIS DA CIDADE1: %s\nUF1: %s\nPOLULACAO1: %d milhoes\nAREA1: %.1f km2\nPIB1: %f milhoes\nTURISMO: %d pontos\n", cidade2, pais2, codigo2, populacao2, area2, pib2, ponts_turist2);
     printf("=================================================\n");
 
     return 0;
